@@ -3,7 +3,9 @@ html {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.header {
+.main,
+.address {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
