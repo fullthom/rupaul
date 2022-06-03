@@ -2,6 +2,10 @@ html {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+body {
+  margin: 0;
+}
 .main {
   height: 100%;
   width: 100%;
@@ -9,7 +13,6 @@ html {
   right: 0;
   top: 0;
   bottom: 0;
-  position: absolute;
   background: linear-gradient(
     124deg,
     #ff2400,
